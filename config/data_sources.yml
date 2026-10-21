@@ -1,0 +1,42 @@
+project:
+  geography: "Phoenix metropolitan area"
+  historical_period: "to_be_selected_after_source_validation"
+
+sources:
+  transit_gtfs:
+    owner: "Valley Metro"
+    purpose: "Stops, routes, trips, stop times, and scheduled service frequency"
+    status: "to_validate"
+    required_entities:
+      - stops
+      - routes
+      - trips
+      - stop_times
+      - calendar
+      - calendar_dates
+
+  weather:
+    owner: "NOAA"
+    purpose: "Historical hourly temperature and heat conditions"
+    status: "to_validate"
+
+  demographics:
+    owner: "U.S. Census Bureau"
+    purpose: "Population, age, poverty, disability, and vehicle-access indicators"
+    status: "to_validate"
+
+  census_geography:
+    owner: "U.S. Census Bureau"
+    purpose: "Census tract boundaries and geographic join keys"
+    status: "to_validate"
+
+  cooling_resources:
+    owner: "to_be_confirmed"
+    purpose: "Cooling-center and hydration-location proximity"
+    status: "to_validate"
+
+  shade_or_shelter:
+    owner: "to_be_confirmed"
+    purpose: "Stop shelter, shade, tree-canopy, or proxy indicators"
+    status: "research_required"
+

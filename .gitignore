@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Local databases and logs
+*.duckdb
+*.duckdb.wal
+*.db
+*.log
+logs/
+
+# Generated data: preserve directory structure only
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/tableau/*
+!data/tableau/.gitkeep
+
+# Tableau workbooks and extracts may be large or contain embedded data
+*.hyper
+*.twb
+*.twbx
+
+# Build artifacts
+build/
+dist/
+
