@@ -97,9 +97,9 @@ This should be presented as a planning tool and not as a prediction of actual sa
 
 ---
 
-# Candidate KPIs
+## Candidate KPIs
 
-## Heat Conditions
+### Heat Conditions
 
 Candidate measures:
 
@@ -108,7 +108,7 @@ Candidate measures:
 - Afternoon or extreme-heat exposure
 - Heat exposure component score
 
-## Scheduled Waiting
+### Scheduled Waiting
 
 Candidate measures:
 
@@ -118,7 +118,7 @@ Candidate measures:
 
 These values should be clearly labeled as schedule-based estimates.
 
-## Shade and Shelter
+### Shade and Shelter
 
 Candidate measures:
 
@@ -128,7 +128,7 @@ Candidate measures:
 
 If reliable shade or shelter data is unavailable, the dashboard should show that limitation rather than assume that the feature is absent.
 
-## Cooling Access
+### Cooling Access
 
 Candidate measures:
 
@@ -137,7 +137,7 @@ Candidate measures:
 - Cooling-access indicator
 - Missing resource-data indicator
 
-## Community Context
+### Community Context
 
 Candidate measures may include:
 
@@ -149,7 +149,7 @@ Candidate measures may include:
 
 Final variables will depend on the approved Census or ACS data source.
 
-## Service Characteristics
+### Service Characteristics
 
 Candidate measures:
 
@@ -158,7 +158,7 @@ Candidate measures:
 - Scheduled stop activity
 - Route-level concentration of higher-priority stops
 
-## Exposure Score
+### Exposure Score
 
 The exposure score should summarize physical heat-related conditions during the selected heat period.
 
@@ -171,13 +171,13 @@ Candidate components include:
 
 Individual score components should remain visible to the user.
 
-## Equity-Priority Score
+### Equity-Priority Score
 
 The equity-priority score should support comparison of heat exposure with community transportation constraints and heat vulnerability.
 
 It should remain separate from the exposure score.
 
-## Investment Priority
+### Investment Priority
 
 Candidate measures:
 
@@ -191,9 +191,9 @@ Any ranking should be presented as an analytical prioritization scenario rather 
 
 ---
 
-# Dashboard Question Mapping
+## Dashboard Question Mapping
 
-## Regional Overview
+### Regional Overview
 
 Primary question:
 
@@ -207,7 +207,7 @@ Candidate KPIs:
 - Stop location
 - Route
 
-## Stop Detail
+### Stop Detail
 
 Primary question:
 
@@ -224,7 +224,7 @@ Candidate KPIs:
 - Exposure-score components
 - Equity-priority components
 
-## Route and Equity Comparison
+### Route and Equity Comparison
 
 Primary question:
 
@@ -238,7 +238,7 @@ Candidate KPIs:
 - Service characteristics
 - Community-context indicators
 
-## Investment Priorities
+### Investment Priorities
 
 Primary question:
 
@@ -254,7 +254,7 @@ Candidate KPIs:
 
 ---
 
-# Dashboard Interpretation Rules
+## Dashboard Interpretation Rules
 
 The dashboard should follow these principles:
 
@@ -269,7 +269,7 @@ The dashboard should follow these principles:
 - Use understandable labels and explanatory tooltips.
 - Keep the public-facing dashboard interpretable rather than overly complex.
 
-## Initial Priority Measures
+### Initial Priority Measures
 
 The first dashboard version should focus on a limited set of understandable measures:
 
